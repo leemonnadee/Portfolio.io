@@ -153,8 +153,10 @@
   position: absolute;
   content: "";
   background: #1E1E1E;
-  -webkit-box-shadow: 5px 5px 0px #161616, -5px -5px 0px #262626;
-          box-shadow: 5px 5px 0px #161616, -5px -5px 0px #262626;
+  -webkit-box-shadow: 5px 5px 0px #161616,
+ -5px -5px 0px #262626;
+          box-shadow: 5px 5px 0px #161616,
+ -5px -5px 0px #262626;
   -webkit-transform-style: preserve-3d;
           transform-style: preserve-3d;
   -webkit-perspective: 1000px;
@@ -177,8 +179,10 @@
 
 .active a {
   background: #1E1E1E;
-  -webkit-box-shadow: 5px 5px 0px #161616, -5px -5px 0px #262626;
-          box-shadow: 5px 5px 0px #161616, -5px -5px 0px #262626;
+  -webkit-box-shadow: 5px 5px 0px #161616,
+ -5px -5px 0px #262626;
+          box-shadow: 5px 5px 0px #161616,
+ -5px -5px 0px #262626;
 }
 
 .wrapper ul li a:hover:after {
@@ -278,8 +282,10 @@ input[type="checkbox"] {
   -webkit-animation: bounce 2s 1;
           animation: bounce 2s 1;
   background: #e0bbbb;
-  -webkit-box-shadow: 5px 5px 10px #be9f9f, -5px -5px 10px #ffd7d7;
-          box-shadow: 5px 5px 10px #be9f9f, -5px -5px 10px #ffd7d7;
+  -webkit-box-shadow: 5px 5px 10px #be9f9f,
+ -5px -5px 10px #ffd7d7;
+          box-shadow: 5px 5px 10px #be9f9f,
+ -5px -5px 10px #ffd7d7;
   text-align: center;
   border-radius: 5px;
   width: 100px;
@@ -462,6 +468,7 @@ input[type="checkbox"] {
 
 .pic img {
   height: 430px;
+    margin-bottom: 30px;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
@@ -702,8 +709,10 @@ input[type="checkbox"] {
   -webkit-transition: 1s;
   transition: 1s;
   background: #FFFFFF;
-  -webkit-box-shadow: -5px -5px 16px #d4d4d4, 5px 5px 16px #ffffff;
-          box-shadow: -5px -5px 16px #d4d4d4, 5px 5px 16px #ffffff;
+  -webkit-box-shadow: -5px -5px 16px #d4d4d4,
+ 5px 5px 16px #ffffff;
+          box-shadow: -5px -5px 16px #d4d4d4,
+ 5px 5px 16px #ffffff;
 }
 
 .parone:nth-child(1):hover h3 {
@@ -727,8 +736,10 @@ input[type="checkbox"] {
   transition: 1s;
   transition: 1s;
   background: #FFFFFF;
-  -webkit-box-shadow: -5px -5px 16px #d4d4d4, 5px 5px 16px #ffffff;
-          box-shadow: -5px -5px 16px #d4d4d4, 5px 5px 16px #ffffff;
+  -webkit-box-shadow: -5px -5px 16px #d4d4d4,
+ 5px 5px 16px #ffffff;
+          box-shadow: -5px -5px 16px #d4d4d4,
+ 5px 5px 16px #ffffff;
 }
 
 .parone:nth-child(3):hover h3 {
@@ -752,8 +763,10 @@ input[type="checkbox"] {
   transition: 1s;
   transition: 1s;
   background: #FFFFFF;
-  -webkit-box-shadow: -5px -5px 16px #d4d4d4, 5px 5px 16px #ffffff;
-          box-shadow: -5px -5px 16px #d4d4d4, 5px 5px 16px #ffffff;
+  -webkit-box-shadow: -5px -5px 16px #d4d4d4,
+ 5px 5px 16px #ffffff;
+          box-shadow: -5px -5px 16px #d4d4d4,
+ 5px 5px 16px #ffffff;
 }
 
 .parone:nth-child(2):hover h3 {
@@ -1017,8 +1030,10 @@ input[type="checkbox"] {
   color: #7A7A7A;
   font-family: sans-serif;
   background: #FFFFFF;
-  -webkit-box-shadow: -5px -5px 16px #d4d4d4, 5px 5px 16px #ffffff;
-          box-shadow: -5px -5px 16px #d4d4d4, 5px 5px 16px #ffffff;
+  -webkit-box-shadow: -5px -5px 16px #d4d4d4,
+ 5px 5px 16px #ffffff;
+          box-shadow: -5px -5px 16px #d4d4d4,
+ 5px 5px 16px #ffffff;
   margin: 20px;
 }
 
