@@ -241,3 +241,26 @@ var typed = new Typed('.type', {
     $(".skillitem:nth-child(8) .counter").css({"tranisition":"2s",
     "visibility":"hidden",});
    });
+
+
+      //skill PHP
+  
+      $(".skillitem:nth-child(9)").hover(function(){
+        $(".skillitem:nth-child(9) .contper").animate({height:160},500);
+      
+        $(".skillitem:nth-child(9) .contper").css({
+          "visibility":"visible",
+          "color":"white",
+          "font-weight":"600",
+        
+          "transition":"1s"
+        });
+        $(".skillitem:nth-child(9) .counter").css("visibility","visible");
+      }, function(){
+        $(".skillitem:nth-child(9) .contper").css({
+          "visibility":"hide",
+        });
+        $(".skillitem:nth-child(9) .contper").animate({height:0});
+        $(".skillitem:nth-child(9) .counter").css({"tranisition":"2s",
+        "visibility":"hidden",});
+       });
