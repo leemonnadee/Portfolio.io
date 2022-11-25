@@ -1,7 +1,7 @@
 
 
 var typed = new Typed('.type', {
-    strings: ['Developer', 
+    strings: ['Computer Engineer','Developer', 
     'Designer',
     'Freelancer'
    

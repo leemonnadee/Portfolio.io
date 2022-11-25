@@ -1028,22 +1028,6 @@ input[type="checkbox"] {
           align-items: center;
 }
 
-.skillitem:nth-child(9) .contper {
-  border-top-left-radius: 20%;
-  border-top-right-radius: 20%;
-  background-color: rgba(120, 124, 180, 0.5);
-  height: 0%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
 .percent {
   overflow: hidden;
   height: 200px;
