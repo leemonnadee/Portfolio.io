@@ -1042,67 +1042,25 @@ input[type=checkbox] {
   align-items: center;
 }
 
+/* Ensure the footer sticks to the bottom of the page */
 .footer {
-  height: -moz-fit-content;
-  height: fit-content;
+  bottom: 0;
   width: 100%;
-  background-color: #0D2860;
-  display: flex;
-  justify-content: center;
-  gap: 200px;
-  flex-wrap: wrap;
-  align-items: center;
+  background-color: #333; /* You can customize the background color */
+  color: white; /* Text color */
+  text-align: center;
+  padding: 10px 0;
 }
 
 .footerbox {
-  height: -moz-fit-content;
-  height: fit-content;
-  width: 600px;
-  display: flex;
-  justify-content: center;
-  padding: 1%;
-  align-items: center;
-  flex-direction: column;
+  display: inline-block;
+  text-align: center;
+  margin: 0;
 }
 
-.footerbox:nth-child(2) {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.footericon {
-  display: flex;
-  gap: 15px;
-}
-
-.footericon a {
-  text-decoration: none;
-  font-size: 30px;
-  color: rgb(97, 96, 96);
-  overflow: hidden;
-}
-
-.footericon a:hover {
-  color: whitesmoke;
-}
-
-.footerbox h2 {
-  font-size: 25px;
-  margin-top: 20px;
-  color: #F0A94D;
-}
-
-.footerbox:nth-child(1) h2 {
-  width: 100%;
-}
-
-.footerbox p {
-  color: whitesmoke;
-}
-
-.footer span {
-  color: #F0A94D;
+.copyright {
+  font-size: 14px;
+  margin-top: 5px;
 }
 
 @media (max-width: 990px) {
